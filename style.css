@@ -1,0 +1,34 @@
+.game {
+    height: 100vh;
+    text-align: center;
+    font-size: 2em;
+}
+
+.competitor {
+    display: flex;
+    justify-content: center;
+}
+
+.competitor h3 {
+    margin: 3vh;
+    font-size: 1em;
+}
+
+.actions button {
+    margin-right: 1rem;
+    width: 10em;
+    height: 10em;
+    font-size: .9em;
+    border-radius: 10px;
+    margin-top: 10vh;
+}
+
+.actionDisplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionDisplay div {
+    margin: 3em;
+}
