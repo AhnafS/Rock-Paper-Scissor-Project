@@ -112,9 +112,9 @@ function reset(){
 
 //Object of displays and its link to pictures
 const pictures = {
-    'rock' : "images/rock.png",
-    'paper' : 'images/paper.png',
-    'scissors' : 'scissors.png'
+    'rock' : "/images/rock.png",
+    'paper' : '/images/paper.png',
+    'scissors' : '/scissors.png'
 }
 
 //changes the display that presesnts action
