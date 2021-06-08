@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+
+body {
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
 .game {
     height: 100vh;
     text-align: center;
@@ -20,7 +26,7 @@
     height: 10em;
     font-size: .9em;
     border-radius: 10px;
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
 .actionDisplay {
@@ -31,4 +37,34 @@
 
 .actionDisplay div {
     margin: 3em;
+}
+
+.actions .rock{
+    background-image: url("../images/rock.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.actions .paper {
+    background-image: url('../images/paper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.actions .scissors {
+    background-image: url('../images/scissors.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.actions button {
+    background-color: transparent;
+}
+
+.playerDisplay img, .computerDisplay img {
+    width: 100px;
+    height: 100px;
 }
